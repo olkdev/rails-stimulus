@@ -1,29 +1,7 @@
-# README
+# Rails 7 + Hotwire (Turbo + Stimulus) = Modern web applications
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-# To do
+## Steps used to generate this project:
 
 ```
 rails new rails-7-fullstack -j esbuild -c tailwind
@@ -40,3 +18,4 @@ bin/rails db:migrate
 bundle add simple_form
 bin/rails generate simple_form:install
 ```
+
